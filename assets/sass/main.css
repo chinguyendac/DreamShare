@@ -1,0 +1,316 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  margin: 0;
+}
+
+body {
+  background-color: #F2F2F2;
+}
+
+.button {
+  min-width: 90px;
+  min-height: 36px;
+  border-radius: 40px;
+  border: 2px solid #fff;
+  font-size: 1.4rem;
+  padding: 0 18px;
+  box-sizing: border-box;
+}
+
+.grid {
+  width: 940px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+.header .grid {
+  width: 100%;
+}
+.header .grid .header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 940px;
+  margin: auto;
+}
+.header .grid .header__nav .header__nav-icon {
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 46px;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+.header .grid .header__nav .header__login {
+  margin-top: 46px;
+}
+.header .grid .header__nav .header__login .header__login-btn {
+  background-color: transparent;
+  border: transparent;
+  color: #fff;
+}
+.header .grid .header__nav .header__login .header__login-register {
+  background-color: transparent;
+  color: #fff;
+}
+.header .grid .header-content {
+  text-align: center;
+}
+.header .grid .header-content .header-content__heading {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 5.2rem;
+  line-height: 6.3rem;
+  color: #fff;
+  max-width: 470px;
+  text-transform: uppercase;
+  margin: 90px auto 14px;
+}
+.header .grid .header-content .header-content__para {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  color: #F7F3F2;
+  margin: 14px 0;
+}
+.header .grid .header-content .header-content__btn {
+  background-color: #FF4E50;
+  border: transparent;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.header--black {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: auto;
+  height: 100%;
+}
+
+.main-content {
+  max-width: 940px;
+  margin: 120px auto 0;
+}
+.main-content .main-content__title1 {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 2.7rem;
+  color: #444444;
+  margin-bottom: 35px;
+}
+.main-content .grid .row .col {
+  padding: 0 10px;
+}
+.main-content .grid .row .col .step-item {
+  box-sizing: border-box;
+  height: 400px;
+}
+.main-content .grid .row .col .step-item .step-item__img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.main-content .grid .row .col .step-item .step-item__img .step-item__content-wrap {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%);
+  height: inherit;
+  display: flex;
+  align-items: flex-end;
+}
+.main-content .grid .row .col .step-item .step-item__img .step-item__content-wrap .step-item__content .step-item__content-btn {
+  margin-left: 25px;
+  background-color: #FF4E50;
+  border: transparent;
+  padding: 5px 14px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #fff;
+}
+.main-content .grid .row .col .step-item .step-item__img .step-item__content-wrap .step-item__content .step-item__content-heading-wrap {
+  margin: 15px 25px 10px;
+  width: 250px;
+  padding-top: 25px;
+  display: flex;
+  align-items: flex-end;
+}
+.main-content .grid .row .col .step-item .step-item__img .step-item__content-wrap .step-item__content .step-item__content-heading-wrap .step-item__content-heading {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 1.4rem;
+  color: #fff;
+}
+.main-content .grid .row .col .step-item .step-item__img .step-item__content-wrap .step-item__content .step-item__content-description-wrap {
+  margin: 0 25px 20px;
+  width: 250px;
+  height: 57px;
+  display: flex;
+  align-items: flex-end;
+}
+.main-content .grid .row .col .step-item .step-item__img .step-item__content-wrap .step-item__content .step-item__content-description-wrap .step-item__content-description {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  color: #E3E3E3;
+  margin-bottom: 0;
+}
+.main-content .main-content__title-2 {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 2.7rem;
+  color: #444444;
+  margin: 47px 0 34px;
+}
+.main-content .grid .row .col .meet-partner {
+  text-align: center;
+}
+.main-content .grid .row .col .meet-partner .meet-partner__img {
+  width: 126px;
+  height: 126px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.main-content .grid .row .col .meet-partner .meet-partner__img .meet-partner__icon-wrap {
+  max-width: 32px;
+  max-height: 32px;
+  background-color: var(--background-img-color);
+  width: 100%;
+  height: 100%;
+  line-height: 24px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+.main-content .grid .row .col .meet-partner .meet-partner__img .meet-partner__icon-wrap .meet-partner__icon {
+  width: 15px;
+  height: 15px;
+}
+.main-content .grid .row .col .meet-partner .meet-partner__name-wrap {
+  margin-top: 14px;
+}
+.main-content .grid .row .col .meet-partner .meet-partner__name-wrap .meet-partner__name {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #444;
+  margin: 14px 0 12px;
+}
+.main-content .grid .row .col .meet-partner .meet-partner__description-wrap {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+}
+.main-content .grid .row .col .meet-partner .meet-partner__description-wrap .meet-partner__description {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  color: #666;
+}
+.main-content .grid .main-content__btn-wrap {
+  text-align: center;
+}
+.main-content .grid .main-content__btn-wrap .main-content__btn {
+  background-color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #FF4E50;
+  border-color: #FF4E50;
+  margin: 36px 0 47px;
+}
+.main-content .grid .row--wrap {
+  margin-left: 0;
+  margin-right: -30px;
+}
+.main-content .grid .row .row {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.main-content .grid .row .row .col-4 .category__item {
+  height: 310px;
+}
+.main-content .grid .row .row .col-4 .category__item .category__item-img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.main-content .grid .row .row .col-4 .category__item .category__item-img .category__item-content-wrap {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.main-content .grid .row .row .col-4 .category__item .category__item-img .category__item-content-wrap .category__item-content {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 2.7rem;
+  color: #fff;
+  margin: auto;
+}
+.main-content .grid .row .rowsecond .col-8 .category__item--col8 {
+  height: 100%;
+}
+.main-content .grid .row .rowsecond .col-8 .category__item--col8 .category__item-img--col8 {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.main-content .grid .row .rowsecond .col-8 .category__item--col8 .category__item-img--col8 .category__item-content-wrap--col8 {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.main-content .grid .row .rowsecond .col-8 .category__item--col8 .category__item-img--col8 .category__item-content-wrap--col8 .category__item-content--col8 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 2.7rem;
+  color: #fff;
+  margin: auto;
+}
+
+/*# sourceMappingURL=main.css.map */

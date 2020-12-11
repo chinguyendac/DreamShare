@@ -1,0 +1,7 @@
+@mixin -text--modifier($pFont-family, $pFont-weight, $pFont-size, $pLine-height,$pColor) {
+    font-family: $pFont-family,sans-serif;
+    font-weight: $pFont-weight;
+    font-size: $pFont-size;
+    line-height: $pLine-height;
+    color:$pColor ;
+}

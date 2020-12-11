@@ -1,0 +1,72 @@
+
+.header {
+    position: relative;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: rgba($color: #000000, $alpha: 0.2);
+    z-index: 2;
+    .grid {
+        width: 100%;
+        .header__nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 940px;
+            margin: auto;
+            .header__nav-icon {
+                text-transform: uppercase;
+                color: $--white-color;
+                margin-top: 46px;
+                font-size: 2rem;
+                text-decoration: none;
+                font-weight: 700;
+            }
+            .header__login {
+                margin-top: 46px;
+                .header__login-btn {
+                    background-color: transparent;
+                    border: transparent;
+                    color: $--white-color;
+                }
+                .header__login-register {
+                    background-color: transparent;
+                    color: $--white-color;
+                }
+            }
+        }
+        .header-content {
+            text-align: center; 
+            .header-content__heading {
+                @include -text--modifier(Montserrat,700,5.2rem,6.3rem,$--white-color);
+                max-width: 470px;
+                text-transform: uppercase;
+                margin: 90px auto 14px;
+            }
+            .header-content__para {
+                @include -text--modifier(Roboto,300,2.4rem,2.4rem,#F7F3F2);
+                margin: 14px 0;
+            }
+            .header-content__btn {
+                background-color: #FF4E50;
+                border: transparent;
+                color: $--white-color;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+// .header::before {
+//     content: "";
+//     width: 100%;
+//     height: 100%;
+//     position: absolute;
+//     background-color: rgba($color: #000000, $alpha: 0.2);
+//     z-index: 1;
+// }
+.header--black {
+    background-color: rgba($color: #000000, $alpha: 0.2);
+    margin: auto;
+    height: 100%;
+}
